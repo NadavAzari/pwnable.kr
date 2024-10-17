@@ -13,28 +13,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "unexploitable/README.md",
+                "file": "tiny_hard/README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
               "title": "README"
             }
-          },
-          {
-            "id": "121c660228022f95",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "unexploitable/memory_map.png"
-              },
-              "icon": "lucide-image",
-              "title": "memory_map"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -106,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "unexploitable/memory_map.png",
+                "file": "tiny_hard/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for memory_map"
+              "title": "Backlinks for README"
             }
           },
           {
@@ -125,12 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "unexploitable/memory_map.png",
+                "file": "tiny_hard/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from memory_map"
+              "title": "Outgoing links from README"
             }
           },
           {
@@ -152,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "unexploitable/memory_map.png"
+                "file": "tiny_hard/README.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of memory_map"
+              "title": "Outline of README"
             }
           }
         ]
@@ -175,22 +162,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "121c660228022f95",
+  "active": "4c554de084b825cd",
   "lastOpenFiles": [
-    "unexploitable/finding_offset.png",
-    "unexploitable/finding_string.png",
-    "unexploitable/found_string.png",
-    "unexploitable/ret_override.png",
-    "unexploitable/Pasted image 20241017011825.png",
-    "unexploitable/memory_map.png",
-    "unexploitable/Pasted image 20241017011841.png",
-    "unexploitable/Pasted image 20241017011642.png",
-    "unexploitable/win.png",
-    "unexploitable/Pasted image 20241017011850.png",
-    "unexploitable/syscall_gadget.png",
+    "tiny_hard/syscall_gadget.png",
+    "tiny_hard/Pasted image 20241017012858.png",
+    "tiny_hard/vdso.png",
+    "tiny_hard/nx_enabled.png",
+    "tiny_hard/no_got.png",
+    "tiny_hard/eax_control_instruction.png",
+    "tiny_hard/win.png",
     "unexploitable/README.md",
-    "tiny_hard/README.md",
     "tiny_easy/README.md",
+    "unexploitable/images/win.png",
+    "unexploitable/images/memory_map.png",
+    "unexploitable/images/ret_override.png",
+    "unexploitable/images/syscall_gadget.png",
+    "Untitled.md",
+    "unexploitable/images",
+    "tiny_hard/README.md",
     "New Text Document.txt",
     "tiny_hard",
     "Welcome.md",

@@ -2,27 +2,27 @@
 # tiny_hard
 
 Tiny hard binary looks **exactly** like tiny_easy, So whats makes it so hard?
-![[Pasted image 20241017012401.png]]
+![[nx_enabled.png]]
 
 In tiny_easy, we sprayed shellcode into the stack and tried to ump somewhere there, this time its not possible, but in every other hard challenge U cant just jump to a shellcode in the stack, why is this one different?
 
 tiny_hard binary is super small, which means you dont got almost any gadget, u dont have `libc` , u dont have external functions, u stuck with nothing!.
 
-![[Pasted image 20241017012624.png]]
+![[no_got.png]]
 
 I ran vmmap, to double check libc isnt there, and something else came to my mind!
 
-![[Pasted image 20241017012649.png]]
+![[vdso.png]]
 
 ## VDSO
 
 `vdso` is code that the linux kernel inject to any process running on a linux machine, sounds like a start point!
 i took memory dump from start address to end address of the vdso in the binary, and ran `ROPGadget` on it
-![[Pasted image 20241017012901.png]]
+![[tiny_hard/syscall_gadget.png]]
 
 Perfect! this is the most effective gadget we can find since we can control any single byte of the stack frame of the gadget we are gonna jump to...
 how can we control eax? its not that big of a deal..
-![[Pasted image 20241017013027.png]]
+![[eax_control_instruction.png]]
 first instruction is 
 ```assembly
 pop eax
@@ -48,4 +48,4 @@ registers, memory, everything!.
 I wrote /bin/sh into the memory, prepared the registers to call `execve` and changed `eip` to point to our syscall gadget!
 
 good luck!!
-![[Pasted image 20241017013842.png]]
+![[tiny_hard/win.png]]
