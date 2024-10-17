@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tiny_hard/README.md",
+                "file": "unexploitable/README.md",
                 "mode": "source",
                 "source": false
               },
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tiny_hard/README.md",
+                "file": "unexploitable/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tiny_hard/README.md",
+                "file": "unexploitable/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tiny_hard/README.md"
+                "file": "unexploitable/README.md"
               },
               "icon": "lucide-list",
               "title": "Outline of README"
@@ -164,22 +164,22 @@
   },
   "active": "4c554de084b825cd",
   "lastOpenFiles": [
-    "tiny_hard/syscall_gadget.png",
+    "tiny_hard/README.md",
+    "tiny_hard/images/win.png",
+    "tiny_hard/images/nx_enabled.png",
+    "tiny_hard/images",
+    "tiny_hard/images/syscall_gadget.png",
     "tiny_hard/Pasted image 20241017012858.png",
-    "tiny_hard/vdso.png",
-    "tiny_hard/nx_enabled.png",
-    "tiny_hard/no_got.png",
-    "tiny_hard/eax_control_instruction.png",
-    "tiny_hard/win.png",
+    "tiny_hard/images/vdso.png",
+    "tiny_hard/images/no_got.png",
+    "tiny_hard/images/eax_control_instruction.png",
     "unexploitable/README.md",
     "tiny_easy/README.md",
     "unexploitable/images/win.png",
     "unexploitable/images/memory_map.png",
     "unexploitable/images/ret_override.png",
-    "unexploitable/images/syscall_gadget.png",
     "Untitled.md",
     "unexploitable/images",
-    "tiny_hard/README.md",
     "New Text Document.txt",
     "tiny_hard",
     "Welcome.md",
