@@ -6,22 +6,22 @@ We get the source code in the challenge so thats nice!
 
 The vulnerable part is here:
 
-![[vulnerable_part.png]]
+![vulnerable_part.png](images/vulnerable_part.png)
 
 And they give us four runs which is awesome!
 also, they are offering a gadget for us!
-![[win_gadget.png]]
+![win_gadget.png](images/win_gadget.png)
 
 Sounds like an easy problem!
 first lets see the stack, we will submit a lot of `%p ` 
-![[stack_leak.png]]
+![stack_leak.png](images/stack_leak.png)
 
 if we take a close look on the addresses, it seems like there are some addresses in the stack, which points to another address in the stack.
 I tried to play with this a bit and got to conclusion we can use the 14'th address!
 I tried using gdb.
 
-![[set_address_gdb.png]]
-![[apear_in_stack.png]]
+![set_address_gdb.png](images/set_address_gdb.png)
+![apear_in_stack.png](images/apear_in_stack.png)
 And we succeed!
 Why is it good for us?
 since there are more then one run, we can first use this primitive in order to put address on the stack, and then use the same primitive to override the address
@@ -38,7 +38,7 @@ U can probably just override the key to known value and submit the value, and ge
 
 using objdump, we can identify the `got` address of `sleep` 
 
-![[got_sleep.png]]
+![got_sleep.png](images/got_sleep.png)
 Now we can put this address on the stack, and then override it with the address of the gadget!
 
 So we will make the got sleep address, apear using override the 14'th element, then with the same method override the 20'th element:
@@ -76,4 +76,4 @@ p.recvuntil(b"zz")
 p.interactive()
 ```
 
-![[win_img.png]]
+![win_img.png](images/win_img.png)

@@ -11,12 +11,14 @@
             "id": "4c554de084b825cd",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "fsb/images/win_img.png"
+                "file": "fsb/README.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "win_img"
+              "icon": "lucide-file",
+              "title": "README"
             }
           }
         ]
@@ -162,8 +164,8 @@
   },
   "active": "4c554de084b825cd",
   "lastOpenFiles": [
-    "fsb/README.md",
     "fsb/images/win_img.png",
+    "fsb/README.md",
     "fsb/images/win_gadget.png",
     "fsb/images/got_sleep.png",
     "fsb/images/apear_in_stack.png",
