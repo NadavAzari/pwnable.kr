@@ -49,4 +49,4 @@ registers, memory, everything!.
 I wrote /bin/sh into the memory, prepared the registers to call `execve` and changed `eip` to point to our syscall gadget!
 
 good luck!!
-![win.png](images/win.png)
+![win.png](tiny_hard/images/win.png)
