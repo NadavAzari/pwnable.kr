@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "exploitable/README.md",
+                "file": "unexploitable/README.md",
                 "mode": "source",
                 "source": false
               },
@@ -179,8 +179,9 @@
   },
   "active": "5792fbbfc530eda7",
   "lastOpenFiles": [
-    "exploitable/images/win.png",
+    "unexploitable/images/win.png",
     "exploitable/README.md",
+    "exploitable/images/win.png",
     "exploitable/images/stdout_got.png",
     "exploitable/images/one_gadget.png",
     "exploitable/images/offset_calc.png",
