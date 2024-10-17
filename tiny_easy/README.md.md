@@ -1,4 +1,5 @@
 
+# tiny_easy
 
 First thing like in every other pwn, we will start by logging in to the ssh server and exploring what we have to deal with:
 ![Exploring files](images/ssh_exploring.png)

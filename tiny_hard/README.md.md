@@ -1,3 +1,6 @@
+
+# tiny_hard
+
 Tiny hard binary looks **exactly** like tiny_easy, So whats makes it so hard?
 ![[Pasted image 20241017012401.png]]
 
