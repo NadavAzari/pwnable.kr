@@ -11,14 +11,12 @@
             "id": "4c554de084b825cd",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "unexploitable/README.md",
-                "mode": "source",
-                "source": false
+                "file": "fsb/images/win_img.png"
               },
-              "icon": "lucide-file",
-              "title": "README"
+              "icon": "lucide-image",
+              "title": "win_img"
             }
           }
         ]
@@ -164,20 +162,22 @@
   },
   "active": "4c554de084b825cd",
   "lastOpenFiles": [
+    "fsb/README.md",
+    "fsb/images/win_img.png",
+    "fsb/images/win_gadget.png",
+    "fsb/images/got_sleep.png",
+    "fsb/images/apear_in_stack.png",
+    "fsb/images/set_address_gdb.png",
+    "fsb/images/stack_leak.png",
+    "fsb/images/vulnerable_part.png",
+    "fsb/images",
+    "unexploitable/README.md",
     "tiny_hard/README.md",
     "tiny_hard/images/win.png",
     "tiny_hard/images/nx_enabled.png",
     "tiny_hard/images",
     "tiny_hard/images/syscall_gadget.png",
-    "tiny_hard/Pasted image 20241017012858.png",
-    "tiny_hard/images/vdso.png",
-    "tiny_hard/images/no_got.png",
-    "tiny_hard/images/eax_control_instruction.png",
-    "unexploitable/README.md",
     "tiny_easy/README.md",
-    "unexploitable/images/win.png",
-    "unexploitable/images/memory_map.png",
-    "unexploitable/images/ret_override.png",
     "Untitled.md",
     "unexploitable/images",
     "New Text Document.txt",
