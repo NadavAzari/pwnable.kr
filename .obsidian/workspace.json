@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "unexploitable/README.md.md",
+                "file": "unexploitable/README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README.md"
+              "title": "README"
             }
           },
           {
@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tiny_hard/README.md.md",
+                "file": "unexploitable/README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README.md"
+              "title": "README"
             }
           }
         ],
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tiny_hard/README.md.md",
+                "file": "unexploitable/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for README.md"
+              "title": "Backlinks for README"
             }
           },
           {
@@ -127,12 +127,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tiny_hard/README.md.md",
+                "file": "unexploitable/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from README.md"
+              "title": "Outgoing links from README"
             }
           },
           {
@@ -154,10 +154,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tiny_hard/README.md.md"
+                "file": "unexploitable/README.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of README.md"
+              "title": "Outline of README"
             }
           }
         ]
@@ -177,12 +177,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6cba5a1bceb2553e",
+  "active": "121c660228022f95",
   "lastOpenFiles": [
+    "tiny_hard/README.md",
+    "tiny_easy/README.md",
     "New Text Document.txt",
-    "unexploitable/README.md.md",
-    "tiny_hard/README.md.md",
-    "tiny_easy/README.md.md",
+    "unexploitable/README.md",
     "tiny_hard/Pasted image 20241017013842.png",
     "tiny_hard/Pasted image 20241017013027.png",
     "tiny_hard/Pasted image 20241017012901.png",
