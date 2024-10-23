@@ -92,4 +92,4 @@ p.sendline(str(0x080485d7).encode())
 
 p.interactive()
 ```
-![win.png](images/win.png)
+![win.png](passcode/images/win.png)
